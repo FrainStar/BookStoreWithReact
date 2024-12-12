@@ -1,7 +1,7 @@
 import {Routes, Route, BrowserRouter, Link} from "react-router-dom";
-import {Books} from "../books/Books";
-import {Book} from "../book/Book";
-import {Favorites} from "../favourites/Favourites";
+import Books from "../books/Books";
+import Book from "../book/Book";
+import Favorites from "../favourites/Favourites";
 import {createContext, useContext, useState} from "react";
 
 const FavoritesContext = createContext();
